@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>管理者ページ</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h1>管理者ページ</h1>
+
+  <div id="qr-reader">QRコードを読み取ってください</div>
+
+  <p>対象ID: <span id="target-id"></span></p>
+  <p>現在のコイン: <span id="target-coins"></span></p>
+  <button id="add-coin">+1</button>
+  <button id="sub-coin">-1</button>
+  <button id="save-coin">確定</button>
+
+  <h2>ランキング操作</h2>
+  <button id="reset-session-ranking">セッションランキング初期化</button>
+  <button id="reset-all-ranking">総合ランキング初期化</button>
+
+  <script src="firebase-config.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>

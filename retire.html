@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>退場ページ</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h1>退場処理</h1>
+  <div id="qr-reader">QRコードを読み取ってください</div>
+
+  <p>ID: <span id="retire-id"></span></p>
+  <p>退場時点のコイン: <span id="retire-coins"></span></p>
+  <p>ポイント操作: <input id="point-diff" type="number" placeholder="減算値" /></p>
+  <button id="apply-point">ポイント減算</button>
+
+  <script src="firebase-config.js"></script>
+  <script src="js/retire.js"></script>
+</body>
+</html>

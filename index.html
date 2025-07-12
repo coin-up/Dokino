@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>参加者ページ</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h1>参加者ページ</h1>
+  <p>ID: <span id="player-id"></span></p>
+  <p>ニックネーム: <input id="nickname" type="text" placeholder="入力して保存" /></p>
+  <p>コイン: <span id="coins">-</span></p>
+  <p>ポイント: <span id="points">-</span></p>
+  <button id="save-nickname">ニックネーム保存</button>
+  <button id="view-ranking">ランキングを見る</button>
+
+  <script src="firebase-config.js"></script>
+  <script src="js/viewer.js"></script>
+</body>
+</html>

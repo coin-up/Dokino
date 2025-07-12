@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>ランキング</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 2rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      padding: 0.5rem;
+      border-bottom: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+  <h1>ランキング</h1>
+  <!-- ここにランキングが表示される -->
+  <ul id="ranking"></ul>
+
+  <!-- Firebase設定 -->
+  <script type="module" src="./firebase-config.js"></script>
+  <!-- ランキング処理 -->
+  <script type="module" src="./ranking.js"></script>
+</body>
+</html>
